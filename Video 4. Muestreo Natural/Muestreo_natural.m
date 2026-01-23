@@ -5,7 +5,7 @@ clear; close all; clc;
 % PARÁMETROS (CAMBIA SOLO ESTO)
 % ======================
 Ts  = 1e-3;          % periodo de muestreo (s)
-tau = Ts/3;          % ancho del pulso (s)  <-- prueba Ts/3, Ts/4, etc.
+tau = Ts/3;         % ancho del pulso (s)  <-- prueba Ts/3, Ts/4, etc.
 
 %% ======================
 % DERIVADOS
