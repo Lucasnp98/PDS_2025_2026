@@ -15,14 +15,14 @@ clear; close all; clc;
 fs   = 200;        % Hz
 Ts   = 1/fs;
 A    = 1;          % amplitud
-f0   = 120;         % Hz
+f0   = 50;         % Hz
 Krep = 1;          % nº de réplicas a cada lado
 
 Tobs = 2.0;        % s
 Nfft = 8192;       % puntos FFT
 
 % -------- SELECTOR DE EJE DE FRECUENCIA --------
-use_digital_freq = false;     % false -> Hz | true -> frecuencia digital
+use_digital_freq = true;     % false -> Hz | true -> frecuencia digital
 digital_mode     = "w";     % "nu" -> ν=f/fs | "w" -> ω (rad/muestra)
 % ----------------------------------------------
 

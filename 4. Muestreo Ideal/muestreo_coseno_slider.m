@@ -23,7 +23,7 @@ dt   = 1e-4;       % s (para señal continua)
 Nfft = 8192;       % puntos FFT
 
 % -------- SELECTOR DE EJE DE FRECUENCIA --------
-use_digital_freq = true;     % false -> Hz | true -> frecuencia digital
+use_digital_freq = false;     % false -> Hz | true -> frecuencia digital
 digital_mode     = "nu";     % "nu" -> ν=f/fs | "w" -> ω (rad/muestra)
 % ----------------------------------------------
 

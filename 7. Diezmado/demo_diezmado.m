@@ -22,7 +22,7 @@ M    = 2;            % factor de diezmado (entero >=2)
 fs_d = fs/M;         % nueva frecuencia de muestreo tras diezmar
 Ts_d = 1/fs_d;
 
-B    = 60;           % Hz (semiancho del rect en frecuencia: |f|<=B)
+B    = 30;           % Hz (semiancho del rect en frecuencia: |f|<=B)
 Tobs = 1.5;          % s (ventana temporal para ver sinc)
 
 oversamp = 50;       % oversampling para "continuo": dt = Ts/oversamp

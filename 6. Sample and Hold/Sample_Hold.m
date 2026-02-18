@@ -11,7 +11,7 @@ use_dB = true;      % <-- CAMBIA a false para magnitud lineal
 fs   = 80;          % Hz
 Ts   = 1/fs;
 
-B    = 8;           % Hz (sube B o baja fs para ver mas distorsion)
+B    = 8;           % Hz 
 Krep = 2;           % <-- menos replicas suele verse mas claro
 
 Tobs = 6.0;         % s

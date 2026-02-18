@@ -13,7 +13,7 @@ Ts   = 1/fs;
 A    = 1;           % amplitud
 f0   = 25;          % Hz (tono)
 
-Krep = 3;           % réplicas a cada lado (solo para límites/guías)
+Krep = 2;           % réplicas a cada lado (solo para límites/guías)
 Tobs = 10;         % s
 
 Ns_per_Ts = 400;    % puntos por Ts
